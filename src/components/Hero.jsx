@@ -20,26 +20,26 @@ export default function Hero() {
       <div className="container-x relative pt-[60px] sm:pt-[68px]">
         {/* Маленький слоган-надпись над заголовком */}
         <div className="flex justify-center pt-10 sm:pt-14">
-          <span className="inline-flex items-center gap-2 rounded-full border border-sand-50/15 bg-sand-50/5 px-4 py-1.5 text-[11px] uppercase tracking-[0.22em] text-sand-100/80 backdrop-blur-sm">
-            <span className="h-1.5 w-1.5 rounded-full bg-gold-400" />
-            Кафе среди хвойного воздуха
+          <span className="inline-flex max-w-full items-center gap-2 rounded-full border border-sand-50/15 bg-sand-50/5 px-3 py-1.5 text-[10px] uppercase tracking-[0.14em] text-sand-100/80 backdrop-blur-sm sm:px-4 sm:text-[11px] sm:tracking-[0.22em]">
+            <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-gold-400" />
+            <span className="whitespace-nowrap">Кафе среди хвойного воздуха</span>
           </span>
         </div>
 
         <div className="flex items-center justify-between gap-1 pb-10 pt-8 sm:gap-3 sm:pb-16 sm:pt-12 lg:pb-20 lg:pt-14">
-          {/* Левое слово */}
-          <h1 className="display shrink-0 text-[16vw] font-extrabold leading-[0.85] text-sand-50 sm:text-[15vw] lg:text-[clamp(96px,11vw,200px)]">
+          {/* Левое слово — мельче на мобиле, чтобы вся строка влезала даже на 320px */}
+          <h1 className="display shrink-0 text-[11vw] font-extrabold leading-[0.85] text-sand-50 sm:text-[12vw] lg:text-[clamp(80px,10vw,180px)]">
             АРЧА
           </h1>
 
           {/* Эмодзи-плейсхолдер по центру */}
-          <div className="flex aspect-square w-[26vw] shrink-0 items-center justify-center sm:w-[24vw] lg:w-[20vw] lg:max-w-[320px]">
+          <div className="flex aspect-square w-[22vw] shrink-0 items-center justify-center sm:w-[22vw] lg:w-[20vw] lg:max-w-[280px]">
             <div className="relative flex h-full w-full items-center justify-center">
               {/* подложка-кружок */}
               <div className="absolute inset-0 rounded-full bg-gold-400/10 ring-1 ring-gold-400/25" />
               <span
                 aria-hidden="true"
-                className="relative text-[18vw] sm:text-[16vw] lg:text-[10vw]"
+                className="relative text-[13vw] sm:text-[14vw] lg:text-[9vw]"
               >
                 ☕
               </span>
@@ -47,7 +47,7 @@ export default function Hero() {
           </div>
 
           {/* Правое слово */}
-          <h1 className="display shrink-0 text-[16vw] font-extrabold leading-[0.85] text-sand-50 sm:text-[15vw] lg:text-[clamp(96px,11vw,200px)]">
+          <h1 className="display shrink-0 text-[11vw] font-extrabold leading-[0.85] text-sand-50 sm:text-[12vw] lg:text-[clamp(80px,10vw,180px)]">
             КАФЕ
           </h1>
         </div>

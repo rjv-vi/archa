@@ -25,13 +25,13 @@ export default function Promo() {
               </p>
 
               <div className="mt-3 flex flex-col">
-                <span className="display text-[58px] font-extrabold leading-[0.85] text-sand-50 sm:text-[88px]">
+                <span className="display text-[44px] font-extrabold leading-[0.85] text-sand-50 sm:text-[68px] lg:text-[88px]">
                   Свежий
-                  <span className="ml-2 align-middle font-script text-2xl font-normal text-gold-200/80 sm:text-3xl">
+                  <span className="ml-2 align-middle font-script text-xl font-normal text-gold-200/80 sm:text-2xl lg:text-3xl">
                     хит
                   </span>
                 </span>
-                <span className="display text-[58px] font-extrabold leading-[0.85] text-gold-400 sm:text-[88px]">
+                <span className="display text-[44px] font-extrabold leading-[0.85] text-gold-400 sm:text-[68px] lg:text-[88px]">
                   десерт
                 </span>
               </div>
